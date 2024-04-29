@@ -5,7 +5,6 @@ import Widgets from "./Components/Widgets";
 const App = () => {
   return (
     <div className="app">
-      {/*Sidebar*/}
       <SideBar />
       <Feed />
       <Widgets />

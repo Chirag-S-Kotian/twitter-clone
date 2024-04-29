@@ -14,8 +14,11 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
+    "firebase": "^10.11.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-flip-move": "^3.0.5",
+    "react-twitter-embed": "^4.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
