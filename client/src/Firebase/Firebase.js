@@ -1,15 +1,16 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDiojMSRlcTNI30qf13lMWu4PblMtP-lrg",
-  authDomain: "twitter-clone-99a0b.firebaseapp.com",
-  projectId: "twitter-clone-99a0b",
-  storageBucket: "twitter-clone-99a0b.appspot.com",
-  messagingSenderId: "1085811518860",
-  appId: "1:1085811518860:web:b9a44d76296e431dfabaa9",
-  measurementId: "G-965R1DH59Y",
+  apiKey: "AIzaSyCn4pJvloMWfI4BJY68CW2ldme-8U8R740",
+  authDomain: "twitter-clone-bd31e.firebaseapp.com",
+  projectId: "twitter-clone-bd31e",
+  storageBucket: "twitter-clone-bd31e.appspot.com",
+  messagingSenderId: "117272968738",
+  appId: "1:117272968738:web:8e1f97a3157aa54c81d47b",
+  measurementId: "G-32G8EZ1N12",
 };
 
 // Initialize Firebase app

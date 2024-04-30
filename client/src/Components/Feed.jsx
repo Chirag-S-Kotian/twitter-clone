@@ -9,12 +9,9 @@ function Feed() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const unsubscribe = onSnapshot(collection(db, "posts"), (snapshot) => {
+    onSnapshot(collection(db, "posts"), (snapshot) => {
       setPosts(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
     });
-
-    // Cleanup on unmount
-    return () => unsubscribe();
   }, []);
 
   return (
